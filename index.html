@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/icon-font.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/a28afa0ac0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Nathan Russell | Interactive Resume</title>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>01</span>Profile</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>02</span>Experience</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>03</span>Socials</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>04</span>Projects</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>05</span>Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header">
+      <div class="header__logo-box">
+        <img src="img/emperor-white.png" alt="Logo" class="header__logo" />
+      </div>
+
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--sub">Curriculum Vitae</span>
+          <span class="heading-primary--main">Nathan Russell</span>
+        </h1>
+
+        <a href="#section-tours" class="btn btn--white btn--animated"
+          >My Projects</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="section-about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Profile</h2>
+          <h3 class="quote">
+            "The stars don’t tell the future. They tell stories." <br /><i
+              >-Shrek</i
+            >
+          </h3>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small">About Me</h3>
+            <p class="paragraph">
+              Hello, I am Nathan, an avid programmer with a diverse range of
+              interests, from web development to game design. Outside of
+              programming, I enjoy pursuing my passions for
+              hiking/mountaineering, entrepreneurship, and fitness. An important
+              fact about me is that I hold an undefeated record in the game of
+              Monopoly, either a testament to my strategic thinking and
+              competitive nature, or pure luck. I perfer to believe in the
+              former.
+            </p>
+
+            <h3 class="heading-tertiary u-margin-bottom-small">Details</h3>
+            <p class="paragraph">
+              As a student of the College of Engineering and Computing at USC, I
+              am passionate about exploring the latest technologies and
+              developing innovative solutions to complex problems. Through my
+              coursework and internship experiences, I have gained a solid
+              foundation in programming languages such as Java, C++, HTML, as
+              well as experience working with databases and web development
+              frameworks. My skills in problem-solving, critical thinking, and
+              collaboration enable me to work effectively in team settings and
+              deliver high-quality results. My passion for computer applications
+              like games and software that drives the world to be more efficient
+              makes me eager to continue learning and expanding my skill set. I
+              am excited to apply my skills in programming, problem-solving, and
+              collaboration to develop cutting-edge solutions that enhance user
+              experiences and drive real-world impact.
+            </p>
+
+            <a href="#" class="btn-text">Learn more &rarr;</a>
+          </div>
+          <div class="col-1-of-2">
+            <div class="composition">
+              <img
+                srcset="img/tour.jpeg 300w, img/tour.jpeg 1000w"
+                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                alt="Photo 1"
+                class="composition__photo composition__photo--p1"
+                src="img/tour.jpeg"
+              />
+
+              <img
+                srcset="img/group.JPG 300w, img/group.JPG 1000w"
+                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                alt="Photo 2"
+                class="composition__photo composition__photo--p2"
+                src="img/group.JPG"
+              />
+
+              <img
+                srcset="img/me.JPG 300w, img/me.JPG 1000w"
+                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                alt="Photo 3"
+                class="composition__photo composition__photo--p3"
+                src="img/me.JPG"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-experience">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="img/video.mp4" type="video/mp4" />
+            <source src="img/video.webm" type="video/webm" />
+            Your browser is not supported!
+          </video>
+        </div>
+
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Experience</h2>
+          <h3 class="quote">
+            "When you do things right, people won't be sure you've done anything
+            at all" <br /><i>-Futurama</i>
+          </h3>
+        </div>
+
+        <div class="row">
+          <div class="experience">
+            <div class="experience__text">
+              <h3 class="heading-experience u-margin-bottom-small">
+                Education
+              </h3>
+              <p>
+                <b class="business">University of South Carolina</b>
+                <br />
+                <i>Bachelor of Science in Computer Science, May 2024</i>
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Columbia, South Carolina    
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="experience-no-skew">
+            <div class="experience-no-skew__text">
+              <h3 class="heading-experience u-margin-bottom-small">
+                Work Experience
+              </h3>
+              <p>
+                <b class="business">Point3 Security</b>
+                <br />
+                <i class="title">Junior Software Developer</i>,&nbsp; August 2022 - Present
+                <ul>
+                  <li>Designed and implemented innovative features for the ESCALATE cybersecurity training platform using GitLab, Vue3, and Vuetify</li>
+                  <li>Collaborated with a team of skilled professionals to design and implement new features that enhance user experiences and drive impactful results, contributing to positioning Point3 Security as a leading player in the cybersecurity training industry</li>
+                  <li>Leveraged problem-solving and communication skills to contribute to the overall success of the ESCALATE web app</li>
+                </ul>
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Baltimore, Maryland    
+                </p>
+              </p>
+
+              <p class="u-margin-top-medium">
+                <b class="business">Southern Shores Dental</b>
+                <br />
+                <i class="title">Summer Staff</i>,&nbsp; Summer 2021
+                <ul>
+                  <li>Managed company transactions by accurately filing and organizing 100+ customer and company receipts</li>
+                  <li>Improved the exterior image and integrity of the practice by completing building and property renovations</li>
+                  <li>Demonstrated trustworthiness and responsibility by being entrusted to purchase equipment orders for use in practice repairs, company giveaways, and medical use.</li>
+                </ul>
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Lexington, South Carolina    
+                </p>
+              </p>
+
+              <p class="u-margin-top-medium">
+                <b class="business">Emperor Warehouse</b>
+                <br />
+                <i class="title">Owner</i>,&nbsp; April 2021 - Present
+                <ul>
+                  <li>Communicated with major distributors such as Nike and Frontier Co-Op to distribute product</li>
+                  <li>Maintained professional relationships between customers and Amazon to ensure quality of products and communication</li>
+                  <li>Prepped, fulfilled, and shipped orders from customers all across the United States</li>
+                </ul>
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Lexington, South Carolina    
+                </p>
+              </p>
+
+              <a href="#" class="btn-text u-margin-top-medium">Full Resume &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row u-margin-bottom-big">
+          <div class="experience-last-skew">
+            <div class="experience-last-skew__text">
+              <h3 class="heading-experience u-margin-bottom-small">
+                Awards
+              </h3>
+              <p>
+                <b class="business">Governor's School of Science and Mathematics Accelerate Engineering Program</b>
+                <p class="location u-margin-bottom-small">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Hartsville, South Carolina    
+                </p>
+                <b class="business">International Baccalaureate Diploma Recipient</b>
+                <p class="location u-margin-bottom-small">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Lexington, South Carolina    
+                </p>
+                <b class="business">University of South Carolina Honors Program</b>
+                <p class="location u-margin-bottom-small">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Columbia, South Carolina    
+                </p>
+                <b class="business">Tau Beta Pi</b>
+                <p class="location u-margin-bottom-small">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Columbia, South Carolina    
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-social">
+        <div class="row">
+          <div class="col-1-of-2">
+            <div class="social-box">
+              <i class="social-box__icon icon-basic-world"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">LinkedIn</h3>
+              <p class="social-box__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim,
+                exercitationem!
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-2">
+            <div class="social-box">
+              <i class="social-box__icon icon-basic-compass"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">Github</h3>
+              <p class="social-box__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim,
+                exercitationem!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-tours" id="section-tours">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">My Projects</h2>
+          <h3 class="quote">
+            "Work and you’ll get what you need; work harder and you’ll get what
+            you want." <br /><i>-Prabakaran Thirumalai</i>
+          </h3>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1"
+                    >Web Devlopment</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS / Sass</li>
+                    <li>Javascript</li>
+                    <li>Vue / Vuetify</li>
+                    <li>Frameworks</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Websites</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">View Web Projects!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2"
+                    >Business Ventures</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Shopify</li>
+                    <li>Amazon</li>
+                    <li>Facebook Ads</li>
+                    <li>Distribution</li>
+                    <li>Excel</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Entrepreneurship</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">View Ventures!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3"
+                    >Coding Projects</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>Unity</li>
+                    <li>MongoDB</li>
+                    <li>DApps</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">
+                      Game Devlopment and Programming
+                    </p>
+                  </div>
+                  <a href="#popup" class="btn btn--white"
+                    >View Code Projects!</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#" class="btn btn--green">See All Projects!</a>
+        </div>
+      </section>
+
+      <section class="section-book">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary">Contact</h2>
+                  <h3 class="quote">
+                    "To live life, you need problems. If you get everything you
+                    want the minute you want it, what's the point of living?"
+                    <br /><i>-Adventure Time</i>
+                  </h3>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Full Name"
+                    id="name"
+                    required
+                  />
+                  <label for="name" class="form__label">Full Name</label>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    placeholder="Email Address"
+                    id="email"
+                    required
+                  />
+                  <label for="email" class="form__label">Email Address</label>
+                </div>
+
+                <div class="form__group">
+                  <button class="btn btn--green">Email &rarr;</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <div class="footer__logo-box">
+          <img
+            src="img/emperor-double-white.png"
+            alt="Logo"
+            class="footer__logo"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Company</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact Us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Careers</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy Policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Built by <a href="#" class="footer__link">Nathan Russell</a> for
+            practice for <a href="#" class="footer__link">Emperor</a>. Copyright
+            &copy; by Nathan Russell.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img" />
+          <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-tours" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">
+            Start booking now
+          </h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Important &ndash; Please read these terms before booking
+          </h3>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            aperiam distinctio quis, voluptatum sit provident ratione autem quae
+            dolore, soluta, facere sint ut eius. Vero explicabo, nulla modi
+            magni magnam quibusdam veritatis fuga natus tempora? Illum
+            repellendus dolore tempora doloribus praesentium qui, veniam quaerat
+            consequatur ullam. Eos a quod nesciunt!
+          </p>
+          <a href="#" class="btn btn--green">Book now</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
