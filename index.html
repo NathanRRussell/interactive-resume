@@ -34,19 +34,19 @@
       <nav class="navigation__nav">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>01</span>Profile</a>
+            <a href="#profile" class="navigation__link"><span>01</span>Profile</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>02</span>Experience</a>
+            <a href="#experience" class="navigation__link"><span>02</span>Experience</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>03</span>Socials</a>
+            <a href="#socials" class="navigation__link"><span>03</span>Socials</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>04</span>Projects</a>
+            <a href="#projects" class="navigation__link"><span>04</span>Projects</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>05</span>Contact</a>
+            <a href="#contact" class="navigation__link"><span>05</span>Contact</a>
           </li>
         </ul>
       </nav>
@@ -63,14 +63,14 @@
           <span class="heading-primary--main">Nathan Russell</span>
         </h1>
 
-        <a href="#section-tours" class="btn btn--white btn--animated"
+        <a href="#projects" class="btn btn--white btn--animated"
           >My Projects</a
         >
       </div>
     </header>
 
     <main>
-      <section class="section-about">
+      <section class="section-about" id="profile">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">Profile</h2>
           <h3 class="quote">
@@ -144,7 +144,7 @@
         </div>
       </section>
 
-      <section class="section-experience">
+      <section class="section-experience" id="experience">
         <div class="bg-video">
           <video class="bg-video__content" autoplay muted loop>
             <source src="img/video.mp4" type="video/mp4" />
@@ -269,15 +269,14 @@
         </div>
       </section>
 
-      <section class="section-social">
+      <section class="section-social" id="socials">
         <div class="row">
           <div class="col-1-of-2">
             <div class="social-box">
               <i class="social-box__icon icon-basic-world"></i>
-              <h3 class="heading-tertiary u-margin-bottom-small">LinkedIn</h3>
+              <h3 class="heading-tertiary u-margin-bottom-small"><i class="fa-brands fa-linkedin fa-4x" style="color: #3282b8;"></i></h3>
               <p class="social-box__text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim,
-                exercitationem!
+                <a href="https://www.linkedin.com/in/nathan-russell-02b8031a3/" class="btn-text">LinkedIn &rarr;</a>
               </p>
             </div>
           </div>
@@ -285,17 +284,16 @@
           <div class="col-1-of-2">
             <div class="social-box">
               <i class="social-box__icon icon-basic-compass"></i>
-              <h3 class="heading-tertiary u-margin-bottom-small">Github</h3>
+              <h3 class="heading-tertiary u-margin-bottom-small"><i class="fa-brands fa-github fa-4x" style="color: #3282b8;"></i></h3>
               <p class="social-box__text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim,
-                exercitationem!
+                <a href="https://github.com/NathanRRussell" class="btn-text">GitHub &rarr;</a>
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section-tours" id="section-tours">
+      <section class="section-projects" id="projects">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">My Projects</h2>
           <h3 class="quote">
@@ -325,11 +323,11 @@
                 </div>
               </div>
               <div class="card__side card__side--back card__side--back-1">
-                <div class="card__cta">
-                  <div class="card__price-box">
-                    <p class="card__price-only">Websites</p>
+                <div class="card__back">
+                  <div class="card__back-box">
+                    <p class="card__back-text">Websites</p>
                   </div>
-                  <a href="#popup" class="btn btn--white">View Web Projects!</a>
+                  <a href="https://nathanrrussell.github.io/CV/web-projects.html" class="btn btn--white">View Web Projects!</a>
                 </div>
               </div>
             </div>
@@ -354,11 +352,11 @@
                 </div>
               </div>
               <div class="card__side card__side--back card__side--back-2">
-                <div class="card__cta">
-                  <div class="card__price-box">
-                    <p class="card__price-only">Entrepreneurship</p>
+                <div class="card__back">
+                  <div class="card__back-box">
+                    <p class="card__back-text">Entrepreneurship</p>
                   </div>
-                  <a href="#popup" class="btn btn--white">View Ventures!</a>
+                  <a href="https://nathanrrussell.github.io/CV/emperor.html" class="btn btn--white">View Ventures!</a>
                 </div>
               </div>
             </div>
@@ -377,19 +375,19 @@
                     <li>Java</li>
                     <li>C++</li>
                     <li>Unity</li>
+                    <li>Kotlin</li>
                     <li>MongoDB</li>
-                    <li>DApps</li>
                   </ul>
                 </div>
               </div>
               <div class="card__side card__side--back card__side--back-3">
-                <div class="card__cta">
-                  <div class="card__price-box">
-                    <p class="card__price-only">
+                <div class="card__back">
+                  <div class="card__back-box">
+                    <p class="card__back-text">
                       Game Devlopment and Programming
                     </p>
                   </div>
-                  <a href="#popup" class="btn btn--white"
+                  <a href="https://nathanrrussell.github.io/CV/game-projects.html" class="btn btn--white"
                     >View Code Projects!</a
                   >
                 </div>
@@ -399,11 +397,11 @@
         </div>
 
         <div class="u-center-text u-margin-top-huge">
-          <a href="#" class="btn btn--green">See All Projects!</a>
+          <a href="https://nathanrrussell.github.io/CV/index.html" class="btn btn--green">View Legacy Website!</a>
         </div>
       </section>
 
-      <section class="section-book">
+      <section class="section-book" id="contact">
         <div class="row">
           <div class="book">
             <div class="book__form">
@@ -421,7 +419,7 @@
                   <input
                     type="text"
                     class="form__input"
-                    placeholder="Full Name"
+                    placeholder="Name"
                     id="name"
                     required
                   />
@@ -464,58 +462,29 @@
           <div class="footer__navigation">
             <ul class="footer__list">
               <li class="footer__item">
-                <a href="#" class="footer__link">Company</a>
+                <a href="#profile" class="footer__link">Profile</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__link">Contact Us</a>
+                <a href="#experience" class="footer__link">Experience</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__link">Careers</a>
+                <a href="#socials" class="footer__link">Socials</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__link">Privacy Policy</a>
+                <a href="#projects" class="footer__link">Projects</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__link">Terms</a>
+                <a href="#contact" class="footer__link">Contact</a>
               </li>
             </ul>
           </div>
         </div>
         <div class="col-1-of-2">
           <p class="footer__copyright">
-            Built by <a href="#" class="footer__link">Nathan Russell</a> for
-            practice for <a href="#" class="footer__link">Emperor</a>. Copyright
-            &copy; by Nathan Russell.
+            Website by <a href="#profile" class="footer__link">Nathan Russell</a>
           </p>
         </div>
       </div>
     </footer>
-
-    <div class="popup" id="popup">
-      <div class="popup__content">
-        <div class="popup__left">
-          <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img" />
-          <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img" />
-        </div>
-        <div class="popup__right">
-          <a href="#section-tours" class="popup__close">&times;</a>
-          <h2 class="heading-secondary u-margin-bottom-small">
-            Start booking now
-          </h2>
-          <h3 class="heading-tertiary u-margin-bottom-small">
-            Important &ndash; Please read these terms before booking
-          </h3>
-          <p class="popup__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-            aperiam distinctio quis, voluptatum sit provident ratione autem quae
-            dolore, soluta, facere sint ut eius. Vero explicabo, nulla modi
-            magni magnam quibusdam veritatis fuga natus tempora? Illum
-            repellendus dolore tempora doloribus praesentium qui, veniam quaerat
-            consequatur ullam. Eos a quod nesciunt!
-          </p>
-          <a href="#" class="btn btn--green">Book now</a>
-        </div>
-      </div>
-    </div>
   </body>
 </html>
