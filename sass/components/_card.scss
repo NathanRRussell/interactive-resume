@@ -72,8 +72,8 @@
     &--1 {
       background-image: linear-gradient(
           to right bottom,
-          $color-secondary-light,
-          $color-secondary-dark
+          $color-primary-light,
+          $color-primary-dark
         ),
         url(../../img/computer-dog.jpg);
     }
@@ -81,8 +81,8 @@
     &--2 {
       background-image: linear-gradient(
           to right bottom,
-          $color-primary-light,
-          $color-primary-dark
+          $color-secondary-light,
+          $color-secondary-dark
         ),
         url(../../img/emperor-clothing-layout.jpg);
     }
@@ -117,16 +117,16 @@
     &--1 {
       background-image: linear-gradient(
         to right bottom,
-        rgba($color-secondary-light, 0.85),
-        rgba($color-secondary-dark, 0.85)
+        rgba($color-primary-light, 0.85),
+        rgba($color-primary-dark, 0.85)
       );
     }
 
     &--2 {
       background-image: linear-gradient(
         to right bottom,
-        rgba($color-primary-light, 0.85),
-        rgba($color-primary-dark, 0.85)
+        rgba($color-secondary-light, 0.85),
+        rgba($color-secondary-dark, 0.85)
       );
     }
 
@@ -212,7 +212,7 @@
     }
 
     // BACK SIDE STYLING
-    &__cta {
+    &__back {
       position: relative;
       top: 0%;
       left: 0%;
@@ -221,7 +221,7 @@
       padding: 7rem 4rem 4rem 4rem;
     }
 
-    &__price-box {
+    &__back-box {
       margin-bottom: 3rem;
     }
 
